@@ -17,7 +17,7 @@ In order to use the python script you need to have PyPDF2 installed and that's i
 ~~~
 python pdf-tools.py cut source.pdf 1 3 newfile
 ~~~
-This command, <b> (cut), </b> creates a new pdf (newfile.pdf) which contains only page 1 and page 3 from the source file(source.pdf).
+This command, <b> (cut), </b> creates a new pdf (newfile.pdf) which contains only page 1 and page 3 from the source file (source.pdf).
 * #### Reorder pages
 ~~~
 python pdf-tools.py cut source.pdf 2 3 1 4 newfile
